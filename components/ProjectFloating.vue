@@ -83,6 +83,14 @@ const projects = ref([
       'Landing page, formularios con Mailer y manejo de rendimiento con pixie Facebook.',
     image: '/images/22.PNG',
     link: 'https://www.canhotoblack.com/'
+  },
+    {
+    title: 'Inivitación de Bodas',
+    tech: 'HTML • Tailwind • JS',
+    description:
+      'Landing page, invitación de ceremonia de boda, manejo de SVG, acceso Google Calendario, reserva.',
+    image: '/images/55.png',
+    link: 'https://antoni-karen-invitation.vercel.app/'
   }
 ])
 
