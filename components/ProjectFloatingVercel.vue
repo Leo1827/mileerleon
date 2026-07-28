@@ -37,11 +37,39 @@ const openLink = (url) => {
 
 const projects = ref([
   {
-    title: 'NexaFlow',
+    title: 'Toolpilot Email',
+    tech: 'Next js •  Boomlify• Tailwind',
+    description: 'Aplicación web de correos temporales que genera emails desechables usando la API de Boomlify.',
+    image: '/images/toolpilot.png',
+    link: 'https://toolpilot-two.vercel.app/'
+  },
+  {
+    title: 'AURA 2 - Construccio..',
+    tech: 'HTML •  JS • Tailwind',
+    description: 'Landing page, sitio web para proyectos de construccion y diseño de infraestructura.',
+    image: '/images/construccion2.png',
+    link: 'https://aura-2-eta.vercel.app/'
+  },
+  {
+    title: 'AURA - Construcciones',
+    tech: 'HTML •  JS • Tailwind',
+    description: 'Landing page, sitio web para proyectos de construccion y diseño de infraestructura.',
+    image: '/images/construccion.png',
+    link: 'https://arquitectura-aura-template.vercel.app/'
+  },
+  {
+    title: 'NexaFlow Saas',
     tech: 'Nuxt JS • Tailwind',
     description: 'Landing page, SaaS para startups, diseño minimalista.',
     image: '/images/nexa.PNG',
     link: 'https://landing-page-saa-s.vercel.app/'
+  },
+  {
+    title: 'TolimaMagico • Planes Turisticos',
+    tech: 'Nuxt JS • Tailwind',
+    description: 'Landing page dedicada a la atención de clientes, para el sector turístico..',
+    image: '/images/tolima.png',
+    link: 'https://tolima-magico.vercel.app/'
   },
   {
     title: 'Aurora Hotel',
@@ -67,7 +95,7 @@ const projects = ref([
   {
     title: '3D LandingPage',
     tech: 'Nuxt JS • Tailwind',
-    description: 'Landing page, con servicios de desarrollo 3d.',
+    description: 'Landing page, con servicios de desarrollo 3d - Impresion 3D.',
     image: '/images/3drules.PNG',
     link: 'https://3druleswa.vercel.app/'
   }

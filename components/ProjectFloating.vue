@@ -69,12 +69,28 @@ import { ref } from 'vue'
 // Lista de proyectos
 const projects = ref([
   {
-    title: 'Canhoto Premium',
-    tech: 'Laravel • Tailwind • JS • MySQL',
+    title: 'Invitación Boda Daniela',
+    tech: 'Next js • Tailwind',
     description:
-      'Tienda online con acceso a subscripción, vinos exclusivos, facturación, inventario, panel administrador, responsive.',
-    image: '/images/1111.PNG',
-    link: 'https://canhotopremium.com/'
+      'Landing page, invitación de ceremonia de boda, manejo de SVG, acceso Google Calendario, reserva.',
+    image: '/images/66.png',
+    link: 'https://invitacion-boda-laura-cristian.vercel.app/'
+  },
+  {
+    title: 'Invitación Boda Karen',
+    tech: 'HTML • Tailwind • JS',
+    description:
+      'Landing page, invitación de ceremonia de boda, manejo de SVG, acceso Google Calendario, reserva.',
+    image: '/images/55.png',
+    link: 'https://antoni-karen-invitation.vercel.app/'
+  },
+  {
+    title: 'Invitación Cumpleaños',
+    tech: 'HTML • Tailwind • JS',
+    description:
+      'Landing page para evento de cumpleaños, confirmacion via whattsapp, calendario.',
+    image: '/images/77.png',
+    link: 'https://thiago-cumplea-os.vercel.app/'
   },
   {
     title: 'Canhoto Black',
@@ -85,13 +101,13 @@ const projects = ref([
     link: 'https://www.canhotoblack.com/'
   },
     {
-    title: 'Inivitación de Bodas',
-    tech: 'HTML • Tailwind • JS',
+    title: 'Canhoto Premium',
+    tech: 'Laravel • Tailwind • JS • MySQL',
     description:
-      'Landing page, invitación de ceremonia de boda, manejo de SVG, acceso Google Calendario, reserva.',
-    image: '/images/55.png',
-    link: 'https://antoni-karen-invitation.vercel.app/'
-  }
+      'Tienda online con acceso a subscripción, vinos exclusivos, facturación, inventario, panel administrador, responsive.',
+    image: '/images/1111.PNG',
+    link: 'https://canhotopremium.com/'
+  },
 ])
 
 // Movimiento sutil
