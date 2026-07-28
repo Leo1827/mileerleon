@@ -26,7 +26,7 @@
 <script setup>
     const cards = [
         {
-            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png',
+            img: 'https://ades-blog.tiempo.llc/wp-content/uploads/2024/10/Laravel.svg_.png',
             bg: '#fff',
             animationClass: 'card-float-right'
         },
